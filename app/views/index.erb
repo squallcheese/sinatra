@@ -6,3 +6,15 @@
   <input type ="text" name="user_input">
   <input type="submit" value="Find">
 </form>
+
+<h2>Anagrams</h2>
+
+<table>
+
+<% @output.each do |elem| %>
+  <tr>
+    <td>
+      <%= elem %>
+    </td>
+  </tr>
+<% end %>
